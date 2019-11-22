@@ -18,7 +18,7 @@
         <a href="<%=root %>/menu/images/레고1.jpg" target="_blank">
           <img src="<%=root %>/menu/images/레고1.jpg" style="width:50%">
           <div class="caption">
-          <h2><p>레고랜드에 온 것을 환영합니다.</p><h2>	
+          <h2><p>레고랜드에 온 것을 환영합니다.안녕</p><h2>	
           </div>
         </a>
       </div>
