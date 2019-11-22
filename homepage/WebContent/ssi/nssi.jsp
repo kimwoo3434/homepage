@@ -1,0 +1,19 @@
+<%@ page contentType="text/html; charset=UTF-8" %> 
+<%@ page import="java.util.*" %>
+<%@ page import="notice.NoticeDTO" %>
+<%@ page import="utility.Utility" %>
+<jsp:useBean id="dao" class="notice.NoticeDAO"/>
+
+<!-- 객체생성하는 것 대신 유즈 빈 사용 따라서 자동객체생성이 됨 -->
+
+<% 
+String root = request.getContextPath();
+request.setCharacterEncoding("utf-8"); 
+
+	List<NoticeDTO> list = null;
+	Iterator<NoticeDTO> iter = null;
+	boolean flag = false;
+
+
+
+%>  
